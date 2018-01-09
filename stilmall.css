@@ -1,0 +1,53 @@
+body {
+    background-color: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+  }
+
+p{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#t
+{
+  font-size: 30px;
+  background-color: white;
+  color: gray;
+  width: 150px;
+  height: 50px;
+
+}
+#r
+{
+  font-size: 30px;
+  background-color: white;
+  color: gray;
+  width: 150px;
+  height: 50px;
+
+}
+#y {
+   font-size: 30px;
+  background-color: white;
+  color: gray;
+  width: 150px;
+  height: 50px;
+
+}
+
+
+
+img{
+
+  position: absolute;
+
+ left: 0;
+ right: 0;
+
+ margin: auto;
+
+}

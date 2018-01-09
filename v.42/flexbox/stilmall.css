@@ -1,0 +1,31 @@
+ .container{
+display: flex;
+background-color: green;
+border-style: solid;
+width: 600px;
+height: 600px;
+flex-direction: column;
+justify-content: space-around;
+
+ }
+
+.rad{
+display: flex;
+background-color: yellow;
+border-style: solid;
+justify-content: space-around;
+/*vidd o höjd
+följer innehållet*/
+
+
+
+}
+
+.item {
+width: 50px;
+height: 50px;
+background-color: blue;
+border-style: solid;
+border-color: white;
+
+}

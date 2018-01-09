@@ -1,0 +1,15 @@
+.flex-container{
+    display:flex;
+    width: 700px;
+    height: 700px;
+    background-color: green;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.flex-item {
+  background-color: red;
+  border-style: groove;
+  border-color: blue;
+}
