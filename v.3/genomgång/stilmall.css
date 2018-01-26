@@ -1,0 +1,37 @@
+ body{
+   background-color: red;
+
+ }
+
+ .container {
+   width: 300px;
+   height: 300px;
+   display: flex;
+   background-color: yellow;
+   border-style: solid;
+   flex-direction: column;
+   justify-content: space-around;
+
+
+ }
+
+ .rad {
+   /*width:20px;*/
+   /*height: 20px;*/
+   background-color: blue;
+   border-style: solid;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+ }
+
+
+ .item {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-style: solid;
+  display: flex;
+
+ }

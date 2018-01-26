@@ -1,0 +1,25 @@
+ .bakgrund {
+display: flex;
+width: 1000px;
+height: 1000px;
+background-color:yellow;
+flex-direction:column;
+justify-content:space-around;
+}
+
+.rad {
+display: flex;
+
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.ruta {
+display: flex;
+height: 100px;
+width: 100px;
+color: yellow;
+background-color:green;
+border-style: solid;
+}

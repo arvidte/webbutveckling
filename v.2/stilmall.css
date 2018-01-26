@@ -1,0 +1,16 @@
+ .bakgrund {
+dislpay: flex;
+width: 1000px;
+height: 1000px;
+color: green;
+background-color:yellow;
+
+ }
+
+.ruta{
+dislpay: flex;  
+height: 100px;
+width: 100px;
+color: yellow;
+background-color:green;
+}

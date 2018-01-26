@@ -1,0 +1,30 @@
+.meny {
+display: flex;
+border-style: solid;
+position: fixed;
+justify-content: space-around;
+flex-direction: row;
+
+
+}
+
+.over {
+position: absolute; 
+background-color: blue;
+height: 50px;
+width: 50px;
+
+
+
+}
+
+
+
+.under {
+  display: none;
+}
+
+.over:hover .under{
+
+
+}
