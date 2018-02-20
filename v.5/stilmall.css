@@ -2,24 +2,28 @@
 
 display: flex;
     /*border-style: solid;*/
-    width: 100%;
+    max-width: 1000px;
     height: 50px;
 position: static;
 justify-content: center;
 flex-direction:row;
+margin: auto;
 
 }
 
 .over {
 
   border-style: solid;
+  border-radius: 5px;
   width:200px;
   background-color: blue;
+  z-index: 3;
 
 }
 
 .under {
 display: none;
+z-index: 3;
 }
 
 .over:hover .under {
@@ -30,7 +34,8 @@ display: none;
   height: 50px;
   border-style: groove;
   border-radius: 5px;
-  z-index: 1;
+  z-index: 3;
+
 
 }
 
@@ -52,23 +57,27 @@ justify-content: center;
 max-width: 1000px;
 margin: auto;
 margin-top: 20px;
+border-style: solid;
+border-radius: 10px;
+box-shadow: 10px 10px 7px;
 
 }
 
 .vänster {
-padding-left: 2px;
-border-style: solid;
+  padding: 4px;
 max-width: 75%;
+}
 
 
 
 }
 
 
+
 .höger {
 max-width: 25%;
-  padding-left: 2px;
-border-style: solid;
-border-left: none;
+  padding: 4px;
+border-left-style: dotted;
+border-color: blue;
 
 }

@@ -1,21 +1,27 @@
+body {
+background-color: purple;
+
+}
+
+
 .meny {
 
 display: flex;
-    /*border-style: solid;*/
-    width: 100%;
-    height: 50px;
-position: static;
-justify-content: center;
-flex-direction:row;
+flex-direction: row;
+max-width: 1000px;
+margin: auto;
+justify-content: space-around;
+background-color: yellow;
 
 }
 
 .over {
-
-  border-style: solid;
-  width:200px;
+height: 50px;
+display: block;
+border-style: solid;
   background-color: blue;
-
+width: 100%;
+padding: 10px;
 }
 
 .under {
@@ -24,13 +30,20 @@ display: none;
 
 .over:hover .under {
 
-  display: block;
-  background-color: blue;
-  width: 195px;
-  height: 50px;
-  border-style: groove;
-  border-radius: 5px;
-  z-index: 1;
+padding: 10px;
+min-width: 100px;
+position: absolute;
+margin-top: 2px;
+
+  background-color: orange;
+border-style: groove;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+
+}
+
+
 
 }
 
@@ -45,13 +58,13 @@ display: none;
 display: flex;
 background-color: green;
 flex-direction: row;
-z-index: -1;
 margin-top: 20px;
 position: static;
 justify-content: center;
 max-width: 1000px;
 margin: auto;
 margin-top: 20px;
+
 
 }
 
