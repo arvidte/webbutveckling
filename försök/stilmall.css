@@ -1,0 +1,76 @@
+.rubrik {
+display: flex;
+height: 100px;
+flex-direction: row;
+justify-content: space-around;
+background-image: url(head.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100px;
+border-style: solid;
+border-bottom: none;
+border-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.rubrik1 {
+display: flex;
+position: relative;
+top: 13px;
+left: 0px;
+height: 70px;
+width: 600px;
+background-color: transparent;
+border-style: solid;
+border-radius: 5px;
+border-color: black;
+justify-content: center;
+flex-direction: row;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  height: 70px;
+  width: 600px;
+
+}
+#rubriken{
+font-size: 50px;
+color: White;
+position: fixed;
+margin-top: 8px;
+}
+
+#loga {
+  margin-top: -25px;
+}
+
+
+
+
+
+
+.menyer{
+    overflow: hidden;
+    background-color: blue;
+    display: flex;
+    border-style: solid;
+    flex-direction: row;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+
+.menyer a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
