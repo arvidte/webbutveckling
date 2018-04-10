@@ -1,0 +1,22 @@
+ 
+.menyer{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  justify-content: right;
+  min-width: 400px;
+}
+
+.over {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: auto;
+  border-left-style: dotted;
+  border-color: white;
+  padding-left: 20px;
+}
