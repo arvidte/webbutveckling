@@ -1,5 +1,6 @@
 body{
   background-image: url(bakgrund.jpg);
+
 }
 
 .rubrik {
@@ -7,12 +8,14 @@ body{
   height: 100px;
   flex-direction: row;
   justify-content: space-around;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
   border-style: solid;
   border-bottom: none;
   border-radius: 5px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  border-color: grey;
+
 }
 
 .rubrik1 {
@@ -24,6 +27,8 @@ body{
   width: 600px;
   justify-content: center;
   flex-direction: row;
+
+
 }
 
 .text {
@@ -32,6 +37,7 @@ body{
   border-style: solid;
   height: 70px;
   width: 600px;
+  background: rgba(0, 0, 0, 1);
 }
 
 #rubriken{
@@ -39,33 +45,52 @@ body{
   color: White;
   position: fixed;
   margin-top: 15px;
+
 }
 
+
+
 .menyer{
-  overflow: hidden;
-  background-color: grey;
   display: flex;
-  border-style: solid;
   flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  border-style: solid;
   border-radius: 5px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  justify-content: right;
+  border-color: grey;
+  background: rgba(0, 0, 0, 0.5);
 }
-
-
 
 .over {
 
-  display: block;
-  color: white;
-  text-align: center;
-  margin: auto;
+  margin-right: auto;
   border-left-style: dotted;
   border-color: white;
   padding-left: 20px;
+  width: 70px;
+}
+
+#borderundantag{
+  border: none;
 }
 
 a {
   color:white;
+}
+
+ .under{
+    display: none;
+
+ }
+
+.over:hover .under {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  height: 20px;
+  width: 60px;
+  border-style: groove;
+  border-radius: 5px;
+
 }
