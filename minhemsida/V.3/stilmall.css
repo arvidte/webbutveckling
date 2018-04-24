@@ -180,27 +180,3 @@ margin-top: 10px;
  overflow-y:scroll;
 
 }
-
-.Nyheter{
-float: left;
-border-style: solid;
-border-color: white;
-border-radius: 15px;
-padding-right: 10px;
-background-color:rgba(0,0,0,0.8);
-
-
-}
-
-li {
-list-style: none;
-}
-li::before {content: "•"; color: white;
-  display: inline-block; width: 15px;
-  margin-left: -1em}
-
-#myHeader{
-color: white;
-text-align: center;
-/*padding-left: 5px;*/
-}
