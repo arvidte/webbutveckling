@@ -4,6 +4,10 @@
 */
 body{
   background-image: url(bakgrund.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
+  background-size: cover;
 }
 
 .rubrik {
@@ -91,19 +95,21 @@ color: white;
   width:200px;
   background-color: red;
   z-index: 3;
-  padding-left: 3px;
-  padding-top: 2px;
+  padding-left: 7px;
+  padding-top: 7px;
 }
 
 .under {
 display: none;
 z-index: 3;
+padding-left: 7px;
+padding-top: 7px;
 }
 
 .over:hover .under {
   display: block;
-  background-color: blue;
-  width: 195px;
+  background-color:rgba(0,0,0,0.9);
+  width: 185px;
   height: 50px;
   border-style: groove;
   border-radius: 5px;
@@ -165,6 +171,7 @@ display: flex;
   border-radius: 15px;
   padding-right: 10px;
   background-color:rgba(0,0,0,0.8);
+  box-shadow: 5px 5px black;
 }
 li {
 list-style: none;
@@ -185,6 +192,8 @@ text-align: center;
   border-style: solid;
   border-color: white;
   border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   padding: 5px;
   background-color:rgba(0,0,0,0.8);
   color: white;
@@ -192,6 +201,7 @@ text-align: center;
   width: 50%;
   max-height: 500px;
  overflow-y:scroll;
+
 }
 
 .start:after {
