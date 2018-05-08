@@ -58,6 +58,16 @@ img{
   font-family: 'Titan One', cursive;
 }
 
+.red{
+display: inline;
+color: red;
+}
+
+.blue{
+display: block; 
+color: blue;
+}
+
 video{
   width: 75%;
   border-style: solid;
