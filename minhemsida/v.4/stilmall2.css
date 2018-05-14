@@ -97,15 +97,11 @@ video{
   cursor: pointer;
   min-width: 20px;
   min-height: 20px;
+
 }
 
 .menyknapp:hover, .menyknapp:focus {
   background-color:rgba(0,0,0,0.2);
-}
-
-.position {
-    position: relative;
-    display: inline-block;
 }
 
 .menyknappar{
@@ -113,6 +109,7 @@ video{
   height: 5px;
   background-color: black;
   margin: 3px 0;
+  cursor: pointer;
 }
 
 .under{
