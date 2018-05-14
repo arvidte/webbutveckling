@@ -64,7 +64,7 @@ color: red;
 }
 
 .blue{
-display: block; 
+display: block;
 color: blue;
 }
 
@@ -87,18 +87,49 @@ video{
 }
 
 #rubrik4{
-font-size: 20px;
-padding-left: 10px;
-
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .menyknapp{
-display: block;
-margin-right: 10px;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
+  min-width: 20px;
+  min-height: 20px;
 }
+
+.menyknapp:hover, .menyknapp:focus {
+  background-color:rgba(0,0,0,0.2);
+}
+
+.position {
+    position: relative;
+    display: inline-block;
+}
+
 .menyknappar{
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 3px 0;
 }
+
+.under{
+  display: none;
+  z-index: 3;
+}
+
+.show{
+  display:block;
+}
+
+/*.menyknapp: .under{
+  display: block;
+  background-color:rgba(0,0,0,0.9);
+  width: 185px;
+  height: 50px;
+  border-style: groove;
+  border-radius: 5px;
+  z-index: 3;
+}*/

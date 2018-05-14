@@ -30,14 +30,40 @@ Den stora konsertsalen, Grosser Saal, har 2.100 platser, en mindre sal 550 plats
          <div class="rightcolumn">
             <div class="meny">
                 <h2 id="rubrik4"> Meny </h2>
-                <div class="menyknapp"></li>
+                <div class="position">
+                <div  onclick="myFunction()" class="menyknapp">
+
                     <div class="menyknappar"></div>
                     <div class="menyknappar"></div>
                    <div class="menyknappar"></div>
-
+                <div id="myDropdown" class="under">Tillbaka</div>
               </div>
+            </div>
             </div>
          </div>
       </div>
+      <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.menyknapp')) {
+
+    var dropdowns = document.getElementsByClassName("under");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
    </body>
 </html>
