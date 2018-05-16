@@ -28,40 +28,58 @@ Den stora konsertsalen, Grosser Saal, har 2.100 platser, en mindre sal 550 plats
             </div>
          </div>
          <div class="rightcolumn">
-            <div onclick="myFunction()" class="meny">
-                <h2 id="rubrik4"> Meny </h2>
-                <div class="menyknapp">
-                    <div class="menyknappar"></div>
-                    <div class="menyknappar"></div>
-                   <div class="menyknappar"></div>
-                <div id="myDropdown" class="under">Tillbaka</div>
+            <div class="meny">
+                <button onclick="myFunction()" class="dropbtn">Meny</button>
+                <div id="myDropdown" class="under">
+                    <a href="index.html"> Tillbaka </a>
+                </div>
               </div>
+                <div class="child">
+                 <table>
+                   <tr>
+                     <th>Event</th>
+                     <th>Datum</th>
+                     <th>Pris</th>
+                  </tr>
+                  <tr>
+                    <td>Opera</td>
+                    <td>24 Maj</td>
+                    <td>20€</td>
+                  </tr>
+                  <tr>
+                    <td>Teater</td>
+                    <td>30 Maj</td>
+                    <td>15€</td>
+                  </tr>
+                  <tr>
+                    <td>Föreläsning</td>
+                    <td>6 juni</td>
+                    <td>12€</td>
+                  </tr>
+                </table>
             </div>
-            </div>
+          </div>
          </div>
-      </div>
-      <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.menyknapp')) {
+<script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
 
-    var dropdowns = document.getElementsByClassName("under");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+         // Close the dropdown menu if the user clicks outside of it
+         window.onclick = function(event) {
+           if (!event.target.matches('.dropbtn')) {
+
+             var dropdowns = document.getElementsByClassName("under");
+             var i;
+             for (i = 0; i < dropdowns.length; i++) {
+               var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                 openDropdown.classList.remove('show');
+               }
+             }
+           }
+         }
 </script>
-
    </body>
 </html>
